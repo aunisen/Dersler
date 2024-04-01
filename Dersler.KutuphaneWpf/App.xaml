@@ -5,7 +5,7 @@
              StartupUri="MainWindow.xaml">
     <Application.Resources>
 
-        <Setter   x:Key="imagefullscreen"  Property="Source" Value="images/icons/fullscreen.png"/>
+        
 
         <Style x:Key="minButtonlar_simge" TargetType="Button">
 
