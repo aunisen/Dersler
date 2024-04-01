@@ -10,5 +10,12 @@
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/book-open.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/bookshelf.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/close.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/fullscreen-exit.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/fullscreen.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/logo-base.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/logo-hover.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/simge-base.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/simge-hover.png")]
 
 

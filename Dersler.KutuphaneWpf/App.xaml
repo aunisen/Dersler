@@ -4,6 +4,94 @@
              xmlns:local="clr-namespace:Dersler.KutuphaneWpf"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style x:Key="minButtonlar_kapat" TargetType="Button">
+            <Setter Property="Foreground" Value="#F8F8F8"/>
+            <Setter Property="Width" Value="20"/>
+            <Setter Property="Height" Value="20"/>
+            <Setter Property="Background" Value="Red"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Name="brdr" BorderThickness="1" CornerRadius="3"  BorderBrush="#F8F8F8" Background="Red">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/> 
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="brdr" Property="BorderBrush" Value="White"/>
+                                <Setter TargetName="brdr" Property="Background" Value="DarkRed"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+                
+                
+                
+            </Setter>
+        </Style>
+
+
+
+        <Style x:Key="minButtonlar_tamEkran" TargetType="Button">
+            <Setter Property="Foreground" Value="#F8F8F8"/>
+            <Setter Property="Width" Value="20"/>
+            <Setter Property="Height" Value="20"/>
+             
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Name="brdr" BorderThickness="1" CornerRadius="3" BorderBrush="#F8F8F8" Background="#134187">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="brdr" Property="BorderBrush" Value="White"/>
+                                <Setter TargetName="brdr" Property="Background" Value="#0F2E80"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value> 
+            </Setter>
+        </Style>
+
+
+
+        <Style x:Key="minButtonlar_simge" TargetType="Button">
+            
+            <Setter Property="Width" Value="20"/>
+            <Setter Property="Height" Value="20"/> 
+            <Setter Property="BorderThickness" Value="1"/>
+            
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Name="brdr" BorderThickness="1" CornerRadius="3" BorderBrush="#F8F8F8" Background="#A1A1A1">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="brdr" Property="BorderBrush" Value="White"/>
+                                <Setter TargetName="brdr" Property="Background" Value="#999"/>
+                                <Setter TargetName="brdr" Property="Background" Value="#999"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+
+
+
+            </Setter> 
+        </Style>
+
+        <Style x:Key="miniButtonResim_Simge" TargetType="Image">
+            <Setter Property="Source" Value="images/icons/simge-base.png"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Source" Value="images/icons/simge-hover.png"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
     </Application.Resources>
 </Application>

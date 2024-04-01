@@ -22,3 +22,11 @@ C:\Projeler\Dersler\Dersler.KutuphaneWpf\obj\Debug\net8.0-windows\ref\Dersler.Ku
 C:\Projeler\Dersler\Dersler.KutuphaneWpf\bin\Debug\net8.0-windows\images\icons\bookshelf.png
 C:\Projeler\Dersler\Dersler.KutuphaneWpf\obj\Debug\net8.0-windows\Dersler.KutuphaneWpf_Content.g.cs
 C:\Projeler\Dersler\Dersler.KutuphaneWpf\bin\Debug\net8.0-windows\images\icons\book-open.png
+C:\Projeler\Dersler\Dersler.KutuphaneWpf\bin\Debug\net8.0-windows\images\icons\fullscreen-exit.png
+C:\Projeler\Dersler\Dersler.KutuphaneWpf\bin\Debug\net8.0-windows\images\icons\fullscreen.png
+C:\Projeler\Dersler\Dersler.KutuphaneWpf\bin\Debug\net8.0-windows\images\icons\logo-base.png
+C:\Projeler\Dersler\Dersler.KutuphaneWpf\bin\Debug\net8.0-windows\images\icons\logo-hover.png
+C:\Projeler\Dersler\Dersler.KutuphaneWpf\bin\Debug\net8.0-windows\images\icons\simge-base.png
+C:\Projeler\Dersler\Dersler.KutuphaneWpf\bin\Debug\net8.0-windows\images\icons\simge-hover.png
+C:\Projeler\Dersler\Dersler.KutuphaneWpf\bin\Debug\net8.0-windows\images\icons\close.png
+C:\Projeler\Dersler\Dersler.KutuphaneWpf\obj\Debug\net8.0-windows\App.baml

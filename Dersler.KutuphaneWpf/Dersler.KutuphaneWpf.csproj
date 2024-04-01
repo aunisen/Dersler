@@ -11,6 +11,13 @@
   <ItemGroup>
     <None Remove="images\icons\book-open.png" />
     <None Remove="images\icons\bookshelf.png" />
+    <None Remove="images\icons\close.png" />
+    <None Remove="images\icons\fullscreen-exit.png" />
+    <None Remove="images\icons\fullscreen.png" />
+    <None Remove="images\icons\logo-base.png" />
+    <None Remove="images\icons\logo-hover.png" />
+    <None Remove="images\icons\simge-base.png" />
+    <None Remove="images\icons\simge-hover.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,6 +25,27 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="images\icons\bookshelf.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\close.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\fullscreen-exit.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\fullscreen.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\logo-base.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\logo-hover.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\simge-base.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\simge-hover.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

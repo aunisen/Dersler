@@ -36,12 +36,18 @@ namespace Dersler.KutuphaneWpf
 
         private void btn_kucult_Click(object sender, RoutedEventArgs e)
         {
-            if(this.WindowState == WindowState.Normal) { this.WindowState = WindowState.Minimized; }
-            else if(this.WindowState==WindowState.Normal)this.WindowState= WindowState.Normal;
+            if(this.WindowState != WindowState.Minimized) { this.WindowState = WindowState.Minimized; }
+            else if(this.WindowState==WindowState.Minimized)this.WindowState= WindowState.Normal;
 
         }
 
         private void Window_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            if (this.WindowState == WindowState.Normal) { this.WindowState = WindowState.Maximized; }
+            else if (this.WindowState == WindowState.Maximized) this.WindowState = WindowState.Normal;
+        }
+
+        private void btn_tamekran_Click(object sender, RoutedEventArgs e)
         {
             if (this.WindowState == WindowState.Normal) { this.WindowState = WindowState.Maximized; }
             else if (this.WindowState == WindowState.Maximized) this.WindowState = WindowState.Normal;
