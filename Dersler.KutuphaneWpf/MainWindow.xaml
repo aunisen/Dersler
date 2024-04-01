@@ -72,15 +72,15 @@
                     <DockPanel Width="74" HorizontalAlignment="Right">
                        
                             <Button   x:Name="button_kucult" Click="btn_kucult_Click" Style="{DynamicResource minButtonlar_simge}" >
-                                <Image  Style="{StaticResource miniButtonResim_Simge}"/>
+                                <Image  />
                             </Button>
                        
                             <Button  x:Name="button_tamekran" Click="btn_tamekran_Click" Style="{DynamicResource minButtonlar_tamEkran}" Margin="4,0,4,0">
-                                <Image Source="images/icons/fullscreen.png"/>
+                            <Image x:Name="tamekranImage" />
                             </Button>
                        
                             <Button  x:Name="button_kapat" Click="btn_kapat_Click" Style="{DynamicResource minButtonlar_kapat}" Margin="0,0,4,0">
-                                <Image Source="images/icons/close.png"/>
+                                <Image />
                             </Button>
                         
                     </DockPanel>

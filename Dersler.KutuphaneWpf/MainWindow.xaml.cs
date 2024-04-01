@@ -49,8 +49,17 @@ namespace Dersler.KutuphaneWpf
 
         private void btn_tamekran_Click(object sender, RoutedEventArgs e)
         {
-            if (this.WindowState == WindowState.Normal) { this.WindowState = WindowState.Maximized; }
-            else if (this.WindowState == WindowState.Maximized) this.WindowState = WindowState.Normal;
+            if (this.WindowState == WindowState.Normal)
+            {
+
+                tamekranImage.Source = new BitmapImage(new Uri("/images/icons/fullscreen.png",UriKind.Relative));
+
+                this.WindowState = WindowState.Maximized;
+            }
+            else if (this.WindowState == WindowState.Maximized) {
+                tamekranImage.Source = new BitmapImage(new Uri("/images/icons/fullscreen-exit.png", UriKind.Relative));
+                
+                this.WindowState = WindowState.Normal; }
         }
     }
 }
