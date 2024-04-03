@@ -9,18 +9,29 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="images\icons\ayarlar.png" />
     <None Remove="images\icons\book-open.png" />
     <None Remove="images\icons\bookshelf.png" />
     <None Remove="images\icons\close.png" />
+    <None Remove="images\icons\emanet-listesi.png" />
     <None Remove="images\icons\fullscreen-exit.png" />
     <None Remove="images\icons\fullscreen.png" />
+    <None Remove="images\icons\kitap-list.png" />
     <None Remove="images\icons\logo-base.png" />
     <None Remove="images\icons\logo-hover.png" />
+    <None Remove="images\icons\menusaaltson.png" />
+    <None Remove="images\icons\menuyeniarkaplan.png" />
+    <None Remove="images\icons\okuyucu-listesi.png" />
+    <None Remove="images\icons\sagustmeneualtisag.png" />
     <None Remove="images\icons\simge-base.png" />
     <None Remove="images\icons\simge-hover.png" />
+    <None Remove="images\icons\zamani-dolanlar.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="images\icons\ayarlar.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="images\icons\book-open.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -30,10 +41,16 @@
     <Content Include="images\icons\close.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="images\icons\emanet-listesi.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="images\icons\fullscreen-exit.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="images\icons\fullscreen.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\kitap-list.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="images\icons\logo-base.png">
@@ -42,10 +59,28 @@
     <Content Include="images\icons\logo-hover.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="images\icons\menusaaltson.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\menuyeniarkaplan.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\okuyucu-listesi.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="images\icons\simge-base.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="images\icons\simge-hover.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\zamani-dolanlar.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="images\icons\sagustmeneualtisag.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

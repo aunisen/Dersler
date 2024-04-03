@@ -52,13 +52,13 @@ namespace Dersler.KutuphaneWpf
             if (this.WindowState == WindowState.Normal)
             {
 
-                tamekranImage.Source = new BitmapImage(new Uri("/images/icons/fullscreen.png",UriKind.Relative));
-
+               // tamekranImage.Source = new BitmapImage(new Uri("/images/icons/fullscreen.png",UriKind.Relative));
+               // kod çalışmadı
                 this.WindowState = WindowState.Maximized;
             }
             else if (this.WindowState == WindowState.Maximized) {
-                tamekranImage.Source = new BitmapImage(new Uri("/images/icons/fullscreen-exit.png", UriKind.Relative));
-                
+              //  tamekranImage.Source = new BitmapImage(new Uri("/images/icons/fullscreen-exit.png", UriKind.Relative));
+                //image source çalışmadı.
                 this.WindowState = WindowState.Normal; }
         }
     }

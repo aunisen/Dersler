@@ -8,14 +8,22 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/ayarlar.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/book-open.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/bookshelf.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/close.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/emanet-listesi.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/fullscreen-exit.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/fullscreen.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/kitap-list.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/logo-base.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/logo-hover.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/menusaaltson.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/menuyeniarkaplan.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/okuyucu-listesi.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/simge-base.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/simge-hover.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/zamani-dolanlar.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/sagustmeneualtisag.png")]
 
 

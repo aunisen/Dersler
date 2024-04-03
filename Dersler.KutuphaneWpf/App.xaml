@@ -17,6 +17,7 @@
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
                         <Border Name="brdr" BorderThickness="1" CornerRadius="3" BorderBrush="#F8F8F8" Background="#A1A1A1">
+                            
                             <Grid >
                                 <Image Name="buttonImage" Source="images/icons/simge-base.png"/>
                                 <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -93,7 +94,50 @@
             </Setter>
         </Style>
 
+        <Style x:Key="menuButtonStyle" TargetType="Button">
+            <Setter Property="Template" >
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Name="border"
+                               BorderBrush="#134187"
+                                BorderThickness="5,0,0,0"
+                                Background="#134187"
+                                Height="50"
+                                Padding="5,0"
+                                Margin="0,0,0,2"
+                                >
+                           
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Border>
 
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="BorderBrush" Value="white"/>
+                                <Setter TargetName="border" Property="Background" Value="#07407D"/>
+                                <Setter TargetName="border" Property="Background">
+                                    <Setter.Value>
+                                      
+                                            <LinearGradientBrush>
+                                                <GradientStop Offset="0" Color="#22A6F2"/>
+                                                <GradientStop Offset="0.8" Color="#134187"/>
+                                            </LinearGradientBrush>
+                                    </Setter.Value>
+                                    
+                                </Setter>
+                                
+                            </Trigger>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter TargetName="border" Property="BorderBrush" Value="white"/>
+                                <Setter TargetName="border" Property="Background" Value="#22A6F2"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter> 
+         
+            
+            
+        </Style>
 
     </Application.Resources>
 </Application>
