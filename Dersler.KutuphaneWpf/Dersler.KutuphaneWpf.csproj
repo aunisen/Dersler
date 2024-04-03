@@ -25,6 +25,7 @@
     <None Remove="images\icons\sagustmeneualtisag.png" />
     <None Remove="images\icons\simge-base.png" />
     <None Remove="images\icons\simge-hover.png" />
+    <None Remove="images\icons\solmenualt.png" />
     <None Remove="images\icons\zamani-dolanlar.png" />
   </ItemGroup>
 
@@ -72,6 +73,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="images\icons\simge-hover.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icons\solmenualt.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="images\icons\zamani-dolanlar.png">

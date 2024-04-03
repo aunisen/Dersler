@@ -23,6 +23,7 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/okuyucu-listesi.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/simge-base.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/simge-hover.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/solmenualt.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/zamani-dolanlar.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons/sagustmeneualtisag.png")]
 
