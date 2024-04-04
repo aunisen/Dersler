@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dersler.KutuphaneWpf")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40ad84c95141e326551dc239ece5340707455aca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3dcae07bbf6d1270fbcf16bf508d8078880cc2f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dersler.KutuphaneWpf")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dersler.KutuphaneWpf")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
