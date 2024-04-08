@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Database\kutuphaneDb.db" />
     <None Remove="images\icons\ayarlar.png" />
     <None Remove="images\icons\book-open.png" />
     <None Remove="images\icons\bookshelf.png" />
@@ -19,6 +20,7 @@
     <None Remove="images\icons\kitap-list.png" />
     <None Remove="images\icons\logo-base.png" />
     <None Remove="images\icons\logo-hover.png" />
+    <None Remove="images\icons\man.png" />
     <None Remove="images\icons\menusaaltson.png" />
     <None Remove="images\icons\menuyeniarkaplan.png" />
     <None Remove="images\icons\okuyucu-listesi.png" />
@@ -27,9 +29,13 @@
     <None Remove="images\icons\simge-hover.png" />
     <None Remove="images\icons\solmenualt.png" />
     <None Remove="images\icons\zamani-dolanlar.png" />
+    <None Remove="kutuphaneDb.db" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Database\kutuphaneDb.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="images\icons\ayarlar.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -60,6 +66,9 @@
     <Content Include="images\icons\logo-hover.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="images\icons\man.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="images\icons\menusaaltson.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -87,6 +96,10 @@
     <Content Include="images\icons\sagustmeneualtisag.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.3" />
   </ItemGroup>
 
 </Project>

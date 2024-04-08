@@ -1,0 +1,42 @@
+﻿<Window x:Class="Dersler.KutuphaneWpf.winKitapEkle"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dersler.KutuphaneWpf"
+        mc:Ignorable="d"
+        Title="winKitapEkle" Height="450" Width="800" AllowsTransparency="True">
+
+    <Grid HorizontalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="169*"/>
+            <RowDefinition Height="48*"/>
+        </Grid.RowDefinitions>
+        <Canvas   VerticalAlignment="Top">
+            <Canvas.Background>
+                <ImageBrush ImageSource="/images/icons/book-open.png"/>
+            </Canvas.Background>
+            <Border Height="266" Width="451" Canvas.Left="-218" Canvas.Top="72" HorizontalAlignment="Left" VerticalAlignment="Top" CornerRadius="0,0,50,50" Background="#FFF3F3F3">
+                <Border.Effect>
+                    <DropShadowEffect Opacity="0.4" Direction="270" Color="#FF545454" />
+                </Border.Effect>
+
+
+            </Border>
+            <Rectangle Fill="#134187" Width="451" Height="40" Canvas.Left="-218" Canvas.Top="72" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+            <Ellipse Width="80" Height="80" Canvas.Left="-255" Canvas.Top="34" HorizontalAlignment="Center" VerticalAlignment="Top" StrokeThickness="4">
+                <Ellipse.Stroke >
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF134187" Offset="0.247"/>
+                        <GradientStop Color="#FF134187" Offset="0.705"/>
+                        <GradientStop Color="White" Offset="0.91"/>
+                        <GradientStop Color="White" Offset="0.066"/>
+                    </LinearGradientBrush>
+                </Ellipse.Stroke>
+            </Ellipse>
+            <Image Source="images/icons/book-open.png" Width="60" Height="60" Canvas.Left="-245" Canvas.Top="42" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Label Content="KİTAP EKLE" Foreground="White" FontSize="14" FontWeight="Bold" Canvas.Left="-170" Canvas.Top="76" HorizontalAlignment="Left" VerticalAlignment="Center" Width="104"/>
+        </Canvas>
+    </Grid>
+</Window>

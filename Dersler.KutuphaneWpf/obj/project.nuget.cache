@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "8w+xxzkp6HSQZBprviHlrS1AyO2eo4MrnIVKtagdlo/I6lJnYxwerUdlzhE9lKzU3yCj2QoRfhDi66DTq1HRIg==",
+  "dgSpecHash": "RHmhNpF6nE0mCwxO28OC5V4rquNnTXZ4Hu6QRHpwmtiHeZ+I8twj24YoyrxTcWvKvIMJfda2ReCbdUXZ5+HWaA==",
   "success": true,
   "projectFilePath": "C:\\Projeler\\Dersler\\Dersler.KutuphaneWpf\\Dersler.KutuphaneWpf.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Jonathan\\.nuget\\packages\\microsoft.data.sqlite\\8.0.3\\microsoft.data.sqlite.8.0.3.nupkg.sha512",
+    "C:\\Users\\Jonathan\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.3\\microsoft.data.sqlite.core.8.0.3.nupkg.sha512",
+    "C:\\Users\\Jonathan\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.6\\sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\Jonathan\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
+    "C:\\Users\\Jonathan\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.6\\sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\Jonathan\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.6\\sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\Jonathan\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,0 +1,156 @@
+﻿<Window x:Class="Dersler.KutuphaneWpf.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dersler.KutuphaneWpf"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Window.Resources>
+        <SolidColorBrush x:Key="buttonBackColor1" Color="#444"/>
+        <SolidColorBrush x:Key="buttonBackColor2" Color="White"/>
+
+
+        <Style TargetType="Button" x:Key="btnBlue">
+            <Setter Property="Background" Value="#fff"/>
+            <Setter Property="Foreground" Value="#000"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+CornerRadius="5"
+BorderThickness="1"
+Padding="5"
+BorderBrush="#000">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                            </ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="Blue"/>
+                    <Setter Property="Foreground" Value="#fff"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style TargetType="Button" x:Key="btnGreen">
+            <Setter Property="Background" Value="#fff"/>
+            <Setter Property="Foreground" Value="#000"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+CornerRadius="5"
+BorderThickness="1"
+Padding="5"
+BorderBrush="#000">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                            </ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="Green"/>
+                    <Setter Property="Foreground" Value="#fff"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style TargetType="Button" x:Key="btnLightRed">
+            <Setter Property="Background" Value="#fff"/>
+            <Setter Property="Foreground" Value="#000"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+CornerRadius="5"
+BorderThickness="1"
+Padding="5"
+BorderBrush="#000">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                            </ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="LightCoral"/>
+                    <Setter Property="Foreground" Value="#fff"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+
+
+        <Style TargetType="Button" x:Key="btnYeni">
+            <Setter Property="BorderBrush" Value="red"/>
+            <Setter Property="Background" Value="{x:Null}"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="BorderThickness" Value="5,0,0,0"/>
+            <Setter Property="Foreground" Value="Red"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        
+                        <Border x:Name="brdBrush" 
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                Background="{TemplateBinding Background}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                >
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        
+                        </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="red"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+                <Trigger Property="IsFocused" Value="True">
+                    <Setter Property="Background" Value="red"/>
+                    <Setter Property="BorderThickness" Value="5,0,0,0"/>
+                    <Setter Property="BorderBrush" Value="blue"/>
+                    <Setter Property="Foreground" Value="white"/>
+                </Trigger>
+                
+
+
+            </Style.Triggers>
+        </Style>
+        
+    </Window.Resources>
+
+
+
+    <Grid>
+        <StackPanel>
+            
+            <Button x:Name="btn3" Content="Tıkla Bana!" Click="btn_Click"  Style="{StaticResource btnGreen}" Width="200" Height="50"  />
+            <Button x:Name="btn1" Content="Tıkla Bana!" Click="btn_Click"  Style="{StaticResource btnYeni}" Width="200" Height="50"  />
+            <Button x:Name="btn2" Content="Tıkla Bana!" Click="btn_Click"  Style="{StaticResource btnYeni}" Width="200" Height="50"  />
+        </StackPanel>
+        <DockPanel HorizontalAlignment="Center" VerticalAlignment="Bottom">
+            <TextBlock x:Name="txtSonuc" Width="500" Height="50" Background="#efefef"  />
+        </DockPanel>
+    </Grid>
+</Window>
